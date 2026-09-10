@@ -8,7 +8,7 @@ AI-assisted literature review pipeline using EndNote and Claude for structured d
 
 ## Objective
 
-To build a small, structured literature review pipeline that combines academic citation management with AI-assisted document analysis — including validating AI outputs against source material and documenting errors — as a practical skill-building exercise for roles involving clinical/scientific data curation.
+To build a small, structured literature review pipeline that combines academic citation management with AI-assisted document analysis including validating AI outputs against source material and documenting errors as a practical skill-building exercise for roles involving clinical/scientific data curation.
 
 ## Method
 
@@ -31,10 +31,10 @@ To build a small, structured literature review pipeline that combines academic c
 
 ## Data Quality / Anomaly Findings
 
-During this process, three issues were identified and documented — the core "test and validate AI-supported analysis, document anomalies and sources of error" skill this exercise was designed to practice:
+During this process, three issues were identified and documented the core "test and validate AI-supported analysis, document anomalies and sources of error" skill this exercise was designed to practice:
 
-1. **Duplicate reference:** The Afrash et al. (2022) paper was imported into EndNote twice under separate record numbers (#1 and #11), traced to overlapping PubMed export and EndNote search results. Resolved using EndNote's Find Duplicates tool before analysis — a reminder that reference deduplication is a necessary QA step before any downstream analysis, not an optional one.
+1. **Duplicate reference:** The Afrash et al. (2022) paper was imported into EndNote twice under separate record numbers (#1 and #11), traced to overlapping PubMed export and EndNote search results. Resolved using EndNote's Find Duplicates tool before analysis  a reminder that reference deduplication is a necessary QA step before any downstream analysis, not an optional one.
 
 2. **Study-type heterogeneity risk:** Sharda et al. (2025) is a systematic review of 9 prior studies, not a primary study with its own patient cohort. An AI extraction run without this distinction being checked could incorrectly report a "sample size" or include it in pooled statistics alongside primary studies, materially skewing any aggregate analysis (e.g., average N, average AUC).
 
-3. **Performance metrics are not directly comparable across studies:** AUC/AUROC/C-statistic values ranged from ~0.60 (Halac, Oh — models built mainly
+3. **Performance metrics are not directly comparable across studies:** AUC/AUROC/C-statistic values ranged from ~0.60 (Halac, Oh models built mainly
