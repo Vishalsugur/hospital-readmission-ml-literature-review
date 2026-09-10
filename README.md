@@ -3,7 +3,7 @@ AI-assisted literature review pipeline using EndNote and Claude for structured d
 # AI-Assisted Literature Review: Machine Learning Models for Predicting Hospital Readmission Risk
 
 **Author:** Vishal Sugur
-**Date:** September 2026
+
 **Tools used:** EndNote (reference management), PubMed (literature search), Claude (AI-assisted structured extraction)
 
 ## Objective
