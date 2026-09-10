@@ -1,0 +1,8 @@
+Study,Year,Type,N,Best Model,Key Metric,DOI
+Afrash et al.,2022,Retrospective cohort (COVID-19),5791,XGBoost,"Accuracy 91.7%, AUC 0.91",10.1016/j.imu.2022.100908
+Davis et al.,2022,Retrospective population-level cohort,428669,Gradient Boosting (manual + ML features),"AUC 0.83 vs. LACE baseline 0.66",10.1186/s12913-022-08748-y
+Halac et al.,2025,"Retrospective cohort, single-center",3388,Random Forest,C-statistic 0.64,10.1093/bioadv/vbaf121
+Oh et al.,2025,"Retrospective, single-center (EMR + nursing data)",12977,Random Forest / CatBoost,AUROC 0.62-0.64,10.2196/56671
+Sharda et al.,2025,Systematic review (PRISMA),9 studies reviewed,ANN / Random Forest (best across reviewed studies),N/A - review-level synthesis,10.7759/cureus.84761
+Silva et al.,2024,"Retrospective cohort, pediatric",9080,XGBoost (bagging imputation),"AUC 0.814, J-index 0.484",10.1016/j.cmpb.2023.107980
+Zhang,2026,Retrospective cohort (clinical + SDOH data),3018,XGBoost,"ROC-AUC 0.79, PR-AUC 0.71",10.3389/fpubh.2026.1754585
